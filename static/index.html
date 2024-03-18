@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>API</title>
+</head>
+<body>
+    <h2>General router</h2>
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">path</th>
+            <th scope="col">HTTP Methods</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>/user</th>
+            <td>GET</td>
+            <td> home page</td>
+          </tr>
+          <tr>
+        </tr>
+        </tbody>
+    </table>
+    <h2> User Table</h2>
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">path</th>
+            <th scope="col">HTTP Methods</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>/user</th>
+            <td>GET</td>
+            <td>to the home page</td>
+          </tr>
+          <tr>
+            <th>add/:id</th>
+            <td>POST</td>
+            <td>To get add User</td>
+          </tr>
+          <tr>
+            <th>update/:id</th>
+            <td>Patch</td>
+            <td>To update User</td>
+          </tr>
+          <tr>
+            <th>users/:id</th>
+            <td>DELETE</td>
+            <td>To Delete User</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2> Products Table</h2>
+      <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>path</th>
+              <th>HTTP Methods</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>/products</th>
+              <td>GET</td>
+              <td>To get products</td>
+            </tr>
+            <tr>
+              <th>/products</th>
+              <td>GET</td>
+              <td>To get products</td>
+            </tr>
+            <tr>
+              <th>addProducts</th>
+              <td>POST</td>
+              <td>To add product</td>
+            </tr>
+            <tr>
+              <th>update/:id</th>
+              <td>Patch</td>
+              <td>To update Products</td>
+            </tr>
+            <tr>
+              <th>delete/:id</th>
+              <td>DELETE</td>
+              <td>To delete products</td>
+            </tr>
+          </tbody>
+        </table>
+</body>
+</html>
